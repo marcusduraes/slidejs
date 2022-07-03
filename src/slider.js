@@ -37,7 +37,7 @@ window.addEventListener("load", function () {
 
 const elementPos = {
   left(index) {
-    index === arrayEl - arrayEl
+    index === 0
       ? arrowLeft.classList.add("-i")
       : arrowLeft.classList.remove("-i");
   },

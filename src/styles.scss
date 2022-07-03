@@ -1,0 +1,67 @@
+$primaryColor: white;
+$secondaryColor: lightgray;
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ctn-slider {
+  width: 60%;
+  height: 65%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.ghost {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.arrows {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.arrow {
+  margin: 5px;
+  font-size: 40px;
+  color: $primaryColor;
+  cursor: pointer;
+}
+.dots-ctn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: auto;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+}
+.dots {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $primaryColor;
+  margin: 0 10px;
+}
+.-a {
+  background-color: $secondaryColor;
+}
+.-i {
+  opacity: 0.3;
+}
